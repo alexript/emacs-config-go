@@ -35,7 +35,6 @@
  '(mode-line ((t (:background "#212931" :foreground "#eeeeec" :box (:line-width 1 :color "gray50" :style released-button) :height 0.8))))
  '(mode-line-buffer-id ((t (:foreground "peru" :weight bold))))
  '(mode-line-inactive ((t (:background "gray29" :foreground "#eeeeec" :box (:line-width 1 :color "gray23" :style pressed-button) :height 0.8))))
- '(popup-tip-face ((t (:background "khaki1" :foreground "black" :height 100 :family "Hack"))))
  '(tool-bar ((t (:background "SystemWindowFrame" :foreground "systembuttontext" :box (:line-width 1 :style released-button)))))
  '(tooltip ((t (:inherit variable-pitch :background "systeminfowindow" :foreground "systeminfotext" :height 100 :family "Hack")))))
 
