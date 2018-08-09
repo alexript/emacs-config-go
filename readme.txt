@@ -1,0 +1,1 @@
+based on http://reangdblog.blogspot.com/2016/06/emacs-ide-go.html
