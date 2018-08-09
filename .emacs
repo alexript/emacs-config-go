@@ -117,5 +117,6 @@
    (multi-compile-locate-file-dir ".git"))))
     ))
 
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; (global-ede-mode t)
