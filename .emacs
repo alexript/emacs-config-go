@@ -5,8 +5,12 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
+ '(column-number-mode t)
  '(custom-enabled-themes (quote (misterioso)))
+ '(display-time-mode t)
  '(ede-project-directories (quote ("y:/")))
+ '(global-display-line-numbers-mode t)
+ '(go-command "vgo")
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
@@ -14,6 +18,7 @@
  '(package-selected-packages
    (quote
     (company company-go flycheck-golangci-lint go-add-tags go-autocomplete go-direx go-eldoc go-guru go-mode go-rename go-scratch go-snippets go-tag gotest multi-compile yasnippet flycheck flycheck-color-mode-line flycheck-cstyle flycheck-rtags ac-rtags ede-compdb eide egg git-commit git-commit-insert-issue git-lens git-link git-timemachine github-clone gitignore-mode sr-speedbar bison-mode cmake-font-lock cmake-ide cmake-mode cmake-project ac-c-headers ac-etags auto-complete auto-complete-c-headers auto-complete-exuberant-ctags)))
+ '(show-paren-mode t)
  '(speedbar-show-unknown-files nil)
  '(speedbar-update-flag t)
  '(speedbar-use-images nil))
@@ -25,8 +30,12 @@
  '(default ((t (:inherit nil :stipple nil :background "#2d3743" :foreground "#e1e1e0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 140 :width normal :foundry "outline" :family "InconsolataCyr"))))
  '(cursor ((t (:background "light yellow"))))
  '(custom-button ((t (:background "gray72" :foreground "black" :box (:line-width 2 :style released-button)))))
+ '(line-number ((t (:inherit (shadow default) :background "gray22" :foreground "light gray" :height 0.8))))
+ '(line-number-current-line ((t (:inherit line-number :background "gray33"))))
+ '(mode-line ((t (:background "#212931" :foreground "#eeeeec" :box (:line-width 1 :color "gray50" :style released-button) :height 0.8))))
  '(mode-line-buffer-id ((t (:foreground "peru" :weight bold))))
- '(mode-line-inactive ((t (:background "gray29" :foreground "#eeeeec")))))
+ '(mode-line-inactive ((t (:background "gray29" :foreground "#eeeeec" :box (:line-width 1 :color "gray23" :style pressed-button) :height 0.8))))
+ '(tool-bar ((t (:background "SystemWindowFrame" :foreground "systembuttontext" :box (:line-width 1 :style released-button))))))
 
 (require 'package)
 (package-initialize)
