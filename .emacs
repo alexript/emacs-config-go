@@ -17,7 +17,7 @@
      ("melpa" . "http://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (company company-go flycheck-golangci-lint go-add-tags go-autocomplete go-direx go-eldoc go-guru go-mode go-rename go-scratch go-snippets go-tag gotest multi-compile yasnippet flycheck flycheck-color-mode-line flycheck-cstyle flycheck-rtags ac-rtags ede-compdb eide egg git-commit git-commit-insert-issue git-lens git-link git-timemachine github-clone gitignore-mode sr-speedbar bison-mode cmake-font-lock cmake-ide cmake-mode cmake-project ac-c-headers ac-etags auto-complete auto-complete-c-headers auto-complete-exuberant-ctags)))
+    (package+ evil copy-as-format gh gh-md git-attr gitconfig-mode company company-go flycheck-golangci-lint go-add-tags go-autocomplete go-direx go-eldoc go-guru go-mode go-rename go-scratch go-snippets go-tag gotest multi-compile yasnippet flycheck flycheck-color-mode-line flycheck-cstyle flycheck-rtags ac-rtags ede-compdb eide egg git-commit git-commit-insert-issue git-lens git-link git-timemachine github-clone gitignore-mode sr-speedbar bison-mode cmake-font-lock cmake-ide cmake-mode cmake-project ac-c-headers ac-etags auto-complete auto-complete-c-headers auto-complete-exuberant-ctags)))
  '(show-paren-mode t)
  '(speedbar-show-unknown-files nil)
  '(speedbar-update-flag t)
@@ -132,3 +132,11 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; (global-ede-mode t)
+
+;; keep my personal settings not in the .emacs file
+;; http://www.mygooglest.com/fni/dot-emacs.html
+;; load it if it exists
+(let ((personal-settings "~/personal.el"))
+ (when (file-exists-p personal-settings)
+   (load-file personal-settings))
+)
