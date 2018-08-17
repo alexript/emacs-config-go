@@ -5,7 +5,7 @@
 ;; Author: Jan Erik Hanssen <jhanssen@gmail.com>
 ;;         Anders Bakken <agbakken@gmail.com>
 ;; URL: http://rtags.net
-;; Package-Version: 20180730.654
+;; Package-Version: 20180814.1713
 ;; Version: 2.10
 
 ;; This file is not part of GNU Emacs.
@@ -1481,7 +1481,8 @@ It uses the stored compile command from the RTags database for preprocessing."
            (completing-read prompt collection predicate require-match default-value hist)))
 
         ((eq rtags-completing-read-behavior 'default-when-empty)
-         (setq prompt (replace-regexp-in-string "^\\(.*\\): " (concat "\\1 (default: " default-value "): ") prompt))
+         (when (> (length default-value) 0)
+           (setq prompt (replace-regexp-in-string "^\\(.*\\): " (concat "\\1 (default: " default-value "): ") prompt)))
          (let ((ret (if (fboundp 'completing-read-default)
                         (completing-read-default prompt collection predicate nil nil hist)
                       (completing-read prompt collection predicate nil nil hist))))
