@@ -68,7 +68,7 @@
 (require 'package)
 (setq load-prefer-newer t)
 (package-initialize)
-(require 'auto-compile)
+;;(require 'auto-compile)
 (auto-compile-on-load-mode)
 (auto-compile-on-save-mode)
 
@@ -97,10 +97,10 @@
 (setq truncate-lines t)
 (setq font-lock-maximum-decoration t)
 
-(require 'cmake-mode)
+;;(require 'cmake-mode)
 (autoload 'cmake-font-lock-activate "cmake-font-lock" nil t)
 (add-hook 'cmake-mode-hook 'cmake-font-lock-activate)
-(require 'rtags) ;; optional, must have rtags installed
+;;(require 'rtags) ;; optional, must have rtags installed
 (eval-after-load 'flycheck
   '(progn
      (require 'flycheck-cstyle)
@@ -111,7 +111,7 @@
 (cmake-ide-setup)
 
 (require 'auto-complete-config)
-(require 'auto-complete-exuberant-ctags)
+;;(require 'auto-complete-exuberant-ctags)
 ;;(ac-exuberant-ctags-setup)
 
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/dict")
@@ -119,7 +119,7 @@
 (setq ac-sources (append ac-sources '(ac-source-ctags)))
 (add-to-list 'ac-sources 'ac-source-etags)
 
-(require 'ac-etags)
+;;(require 'ac-etags)
 
 (eval-after-load "etags"
   '(progn
@@ -130,19 +130,19 @@
 (global-set-key (kbd "M-/") 'hippie-expand)
 (setq hippie-expand-try-functions-list '(try-expand-dabbrev try-expand-dabbrev-all-buffers try-expand-dabbrev-from-kill try-complete-file-name-partially try-complete-file-name try-expand-all-abbrevs try-expand-list try-expand-line try-complete-lisp-symbol-partially try-complete-lisp-symbol))
 
-(require 'sr-speedbar)
+;;(require 'sr-speedbar)
 (global-set-key (kbd "M-s M-s") 'sr-speedbar-toggle)
 (setq speedbar-directory-unshown-regexp "^\\(CVS\\|RCS\\|SCCS\\|\\.\\.*$\\)\\'")
 
 
-(require 'annotate)
+;;(require 'annotate)
 
-(require 'company)
-(require 'flycheck)
-(require 'yasnippet)
-(require 'multi-compile)
-(require 'go-eldoc)
-(require 'company-go)
+;;(require 'company)
+;;(require 'flycheck)
+;;(require 'yasnippet)
+;;(require 'multi-compile)
+;;(require 'go-eldoc)
+;;(require 'company-go)
 
 (add-hook 'before-save-hook 'gofmt-before-save)
 (setq-default gofmt-command "goimports")
@@ -166,18 +166,18 @@
 ;; (global-ede-mode t)
 
 (setq auto-indent-on-visit-file t) ;; If you want auto-indent on for files
-(require 'auto-indent-mode)
+;;(require 'auto-indent-mode)
 (auto-indent-global-mode)
 
 
 (global-set-key (kbd "M-s r") 'newsticker-treeview)
 
-(require 'bar-cursor)
+;;(require 'bar-cursor)
 (bar-cursor-mode 1)
 
 (beacon-mode 1)
 
-(require 'blog-minimal)
+;;(require 'blog-minimal)
 
 (add-hook 'after-init-hook 'global-color-identifiers-mode)
 
@@ -202,7 +202,7 @@
 (add-hook 'prog-mode-hook 'comment-tags-mode)
 
 
-(require 'lice)
+;;(require 'lice)
 (setq lice:default-license  "mit")
 (setq lice:copyright-holder  "Alexander Malyshev")
 
