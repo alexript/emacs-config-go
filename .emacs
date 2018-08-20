@@ -34,7 +34,7 @@
      ("melpa" . "http://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (lice comment-tags color-identifiers-mode blog-minimal beacon bar-cursor auto-indent-mode annotate package+ evil copy-as-format gh gh-md git-attr gitconfig-mode company company-go flycheck-golangci-lint go-add-tags go-autocomplete go-direx go-eldoc go-guru go-mode go-rename go-scratch go-snippets go-tag gotest multi-compile yasnippet flycheck flycheck-color-mode-line flycheck-cstyle flycheck-rtags ac-rtags ede-compdb eide egg git-commit git-commit-insert-issue git-lens git-link git-timemachine github-clone gitignore-mode sr-speedbar bison-mode cmake-font-lock cmake-ide cmake-mode cmake-project ac-c-headers ac-etags auto-complete auto-complete-c-headers auto-complete-exuberant-ctags)))
+    (desktop+ lice comment-tags color-identifiers-mode blog-minimal beacon bar-cursor auto-indent-mode annotate package+ evil copy-as-format gh gh-md git-attr gitconfig-mode company company-go flycheck-golangci-lint go-add-tags go-autocomplete go-direx go-eldoc go-guru go-mode go-rename go-scratch go-snippets go-tag gotest multi-compile yasnippet flycheck flycheck-color-mode-line flycheck-cstyle flycheck-rtags ac-rtags ede-compdb eide egg git-commit git-commit-insert-issue git-lens git-link git-timemachine github-clone gitignore-mode sr-speedbar bison-mode cmake-font-lock cmake-ide cmake-mode cmake-project ac-c-headers ac-etags auto-complete auto-complete-c-headers auto-complete-exuberant-ctags)))
  '(show-paren-mode t)
  '(size-indication-mode t)
  '(speedbar-default-position (quote left-right))
