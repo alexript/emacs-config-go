@@ -1,0 +1,283 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Aug 20 20:24:58 2018
+;; Desktop file format version 208
+;; Emacs version 26.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23418 63850 289103 0) (desktop . "208") "alexript@DEV-TWO" nil nil ((((minibuffer . t) (undecorated) (skip-taskbar) (font-backend uniscribe gdi) (font . "-outline-InconsolataCyr-normal-normal-normal-mono-28-*-*-*-c-*-iso8859-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 6) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 41) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . bar) (scroll-bar-width . 26) (scroll-bar-height . 0) (fullscreen . maximized) (z-group) (visibility . t) (display-type . color) (background-mode . dark) (cursor-color . "light yellow") (environment) (frameset--id . "9FAE-EB9A-C101-3F0B") (frameset--mini t . t) (width . 134) (modeline . t) (unsplittable) (left + -11) (top + -11) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 11) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 112) (min-pixel-width . 280) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 154) (min-pixel-height-safe . 28) (min-pixel-width-safe . 56)) hc (pixel-width . 1920) (pixel-height . 1142) (total-width . 137) (total-height . 41) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1358) (pixel-height . 1142) (total-width . 97) (total-height . 41) (normal-height . 1.0) (normal-width . 0.7072916666666667) (buffer "clipboard.go" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 65) (start . 1))) (leaf (last . t) (pixel-width . 562) (pixel-height . 1142) (total-width . 40) (total-height . 41) (normal-height . 1.0) (normal-width . 0.29270833333333335) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 216) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("d:/go/src/github.com/alexript/go-wtk/*.go" "d:/go/src/github.com/alexript/go-wtk-examples/demo.go"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/clipboard.go"
+  "clipboard.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  65
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63842 345416 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/clipboard_darwin.go"
+  "clipboard_darwin.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63702 137290 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/clipboard_linux.go"
+  "clipboard_linux.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63701 945526 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/clipboard_windows.go"
+  "clipboard_windows.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63701 914304 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/command.go"
+  "command.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63701 761509 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/context.go"
+  "context.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63701 568235 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/drawing.go"
+  "drawing.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63701 62605 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/fonts.go"
+  "fonts.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63701 32444 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/grouplist.go"
+  "grouplist.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63701 166 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/input.go"
+  "input.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63700 829687 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/label.go"
+  "label.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63700 798005 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/nucular.go"
+  "nucular.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63700 264134 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/nucular_test.go"
+  "nucular_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63700 92766 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/rect.go"
+  "rect.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63700 60603 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/shiny.go"
+  "shiny.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63699 889747 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/split.go"
+  "split.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63699 718417 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/strinsdel_test.go"
+  "strinsdel_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63699 685547 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/style.go"
+  "style.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63699 240590 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/testing.go"
+  "testing.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63699 207166 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/text.go"
+  "text.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63698 953589 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/util.go"
+  "util.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63698 788737 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/go/src/github.com/alexript/go-wtk/wtk.go"
+  "wtk.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode annotate-mode company-mode flycheck-mode yas-minor-mode auto-indent-mode bar-cursor-mode beacon-mode comment-tags-mode color-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23418 63698 759512 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
