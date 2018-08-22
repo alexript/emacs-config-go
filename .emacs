@@ -140,7 +140,7 @@
 
 ;;(require 'annotate)
 
-;;(require 'company)
+(require 'company)
 ;;(require 'flycheck)
 ;;(require 'yasnippet)
 ;;(require 'multi-compile)
@@ -158,9 +158,9 @@
 (add-hook 'go-mode-hook 'annotate-mode)
 (setq multi-compile-alist '(
     (go-mode . (
-("go-build" "go build -v"
+("go-build" "vgo build -v"
    (locate-dominating-file buffer-file-name ".git"))
-("go-build-and-run" "go build -v && echo 'build finish' && eval ./${PWD##*/}"
+("go-build-and-run" "vgo build -v && echo 'build finish' && eval ./${PWD##*/}"
    (multi-compile-locate-file-dir ".git"))))
     ))
 
