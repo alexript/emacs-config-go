@@ -5,9 +5,9 @@
 ;; Author: J. Alexander Branham <branham@utexas.edu>
 ;; Maintainer: J. Alexander Branham <branham@utexas.edu>
 ;; URL: https://gitlab.com/jabranham/system-packages
-;; Package-Version: 20180724.2348
+;; Package-Version: 20180821.17
 ;; Package-Requires: ((emacs "24.3"))
-;; Version: 1.0.6
+;; Version: 1.0.7
 
 
 ;; This file is not part of GNU Emacs.
@@ -338,7 +338,8 @@ and ARGS."
   (let ((command (system-packages-get-command action pack args))
         (default-directory (if system-packages-use-sudo
                                "/sudo::"
-                             default-directory)))
+                             default-directory))
+        (inhibit-read-only t))
     (async-shell-command command "*system-packages*")))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
