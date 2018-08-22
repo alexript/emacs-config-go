@@ -40,6 +40,9 @@
  '(speedbar-default-position (quote left-right))
  '(speedbar-hide-button-brackets-flag t)
  '(speedbar-show-unknown-files nil)
+ '(speedbar-supported-extension-expressions
+   (quote
+    (".[ch]\\(\\+\\+\\|pp\\|c\\|h\\|xx\\)?" ".tex\\(i\\(nfo\\)?\\)?" ".el" ".emacs" ".l" ".lsp" ".p" ".java" ".js" ".f\\(90\\|77\\|or\\)?" ".ad[abs]" ".p[lm]" ".tcl" ".m" ".scm" ".pm" ".py" ".g" ".s?html" ".ma?k" "[Mm]akefile\\(\\.in\\)?" ".go" ".md" "go.mod" ".gitignore")))
  '(speedbar-update-flag t)
  '(speedbar-use-images nil)
  '(tool-bar-mode nil)
