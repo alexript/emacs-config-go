@@ -21,7 +21,7 @@
  '(ede-project-directories (quote ("y:/")))
  '(gh-use-local-git-config t)
  '(global-display-line-numbers-mode t)
- '(go-command "vgo")
+ '(go-command "go")
  '(newsticker-new-item-functions
    (quote
     (newsticker-download-images newsticker-download-enclosures)))
@@ -158,9 +158,9 @@
 (add-hook 'go-mode-hook 'annotate-mode)
 (setq multi-compile-alist '(
     (go-mode . (
-("go-build" "vgo build -v"
+("go-build" "go build -v"
    (locate-dominating-file buffer-file-name ".git"))
-("go-build-and-run" "vgo build -v && echo 'build finish' && eval ./${PWD##*/}"
+("go-build-and-run" "go build -v && echo 'build finish' && eval ./${PWD##*/}"
    (multi-compile-locate-file-dir ".git"))))
     ))
 
