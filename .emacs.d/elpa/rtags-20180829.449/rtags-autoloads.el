@@ -351,6 +351,21 @@ Apply compiler fix-it at point.
 
 \(fn)" t nil)
 
+(autoload 'rtags-flatten-max-depth-one "rtags" "\
+
+
+\(fn UNFLATTENED)" nil nil)
+
+(autoload 'rtags-create-index-function "rtags" "\
+
+
+\(fn)" t nil)
+
+(autoload 'rtags-activate-imenu "rtags" "\
+Overrides imenu index generation function for the current function.
+
+\(fn)" t nil)
+
 (autoload 'rtags-copy-and-print-current-location "rtags" "\
 
 

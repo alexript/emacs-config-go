@@ -29,10 +29,11 @@ if not boolean - insert interactive value into the function beginning as is.
 RETURN-TYPE possible values are listed in the CLOMACS-POSSIBLE-RETURN-TYPES,
 or it may be a custom function (:string by default).
 RETURN-VALUE may be :value or :stdout (:value by default).
+LIB-NAME - Elisp library name used in end-user .emacs config by `require'.
 HTTPD-STARTER - in the case Clojure side code needs to call Elisp side code,
 http-server should be started to pass http requests from Clojure REPL
 to Emacs. This parameter is Elisp function to do it. Such function can
-looks like `clomacs-httpd-start'.
+be created by `clomacs-create-httpd-start' macro.
 
 \(fn EL-FUNC-NAME CL-FUNC-NAME &key (CALL-TYPE :sync) (CALLBACK nil) (DOC nil) (INTERACTIVE nil) (RETURN-TYPE :string) (RETURN-VALUE :value) LIB-NAME NAMESPACE (HTTPD-STARTER nil))" nil t)
 
