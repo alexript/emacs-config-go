@@ -5,7 +5,7 @@
 ;; Author: Jan Erik Hanssen <jhanssen@gmail.com>
 ;;         Anders Bakken <agbakken@gmail.com>
 ;; URL: http://rtags.net
-;; Package-Version: 20180829.449
+;; Package-Version: 20180909.1749
 ;; Version: 2.10
 
 ;; This file is not part of GNU Emacs.
@@ -42,7 +42,7 @@
   (require 'cl-lib)
   (defalias 'defun* 'cl-defun))
 (require 'cl-seq)
-(provide 'cl-extra)
+(require 'cl-extra)
 (require 'bookmark)
 (require 'cc-mode)
 (require 'tramp)

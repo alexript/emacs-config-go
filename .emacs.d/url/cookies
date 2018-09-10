@@ -5,12 +5,12 @@
  'nil)
 (setq url-cookie-secure-storage
  '(("reddit.com"
-  [url-cookie "session_tracker" "xayC8nvNI2azjk4jj3.0.1534514316459.Z0FBQUFBQmJkdFNNdFJ5akdoZ1VVamEwOEdMZVlINk9tRzBmcTRaTEtvMFZ6MHVaNWhmQ3hRcWVjVGRuY1F2WldGNlZmb0x1ZTJJNDNmaFlaQXdTaTh3bzNjSkVrLUJ6cXV6Tmo1V2F1bUl4N3JVLUwwQ21zM2VLTy1XdndDc0xvRDdtay1SeWJCQzA"
-	      #("Пт авг 17 15:58:35 2018 GMT" 0 27
+  [url-cookie "session_tracker" "gXKu5zfVSEB35C6viR.0.1535708638914.Z0FBQUFBQmJpUTNmYXhHRXI4cEdLcEw5eEhQTTlodFN5bUtpSk9UZ1ZsbGwzVFJIRnFVV1lKdS1zV2ZnZm0xLUt6amlMVGZZLVp1VlhQM3VFLVQzOVJXTEdfd1diRnlFTWpUY0kzNjRralBNRDdVSHdsR0VmY1JaMU1kazhTcDRIOUliWWFuenllenQ"
+	      #("Пт авг 31 11:43:58 2018 GMT" 0 27
 		(charset windows-1251))
 	      "/" "reddit.com" t]
   [url-cookie "edgebucket" "9ft7nkJj8x3It7RWvi"
-	      #("Вс авг 16 13:58:35 2020 GMT" 0 27
+	      #("\320\222\321\201 \320\260\320\262\320\263 16 13:58:35 2020 GMT" 0 27
 		(charset windows-1251))
 	      "/" "reddit.com" t]))
 )
