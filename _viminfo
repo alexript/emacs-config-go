@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :qa
-|2,0,1553174399,,"qa"
+|2,0,1553174556,,"qa"
 :CMakeCreateProject ../builds
 |2,0,1553174307,,"CMakeCreateProject ../builds"
 :CMakeBuild
@@ -166,34 +166,52 @@ $
 |3,0,36,0,1,0,1553072194,"x"
 
 # File marks:
-'0  1  0  E:\Workspace\YACAPI\src\yacapi\yacapi.c
-|4,48,1,0,1553174399,"E:\\Workspace\\YACAPI\\src\\yacapi\\yacapi.c"
-'1  1  0  E:\Workspace\YACAPI\src\CMakeLists.txt
-|4,49,1,0,1553174313,"E:\\Workspace\\YACAPI\\src\\CMakeLists.txt"
-'2  10  8  E:\Workspace\YACAPI\src\NERD_tree_1
-|4,50,10,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
-'3  11  8  E:\Workspace\YACAPI\src\NERD_tree_1
-|4,51,11,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
-'4  106  39  E:\Cocoon\runners\cmd\agent\main.go
-|4,52,106,39,1553083768,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
-'5  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,53,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
-'6  94  5  E:\Cocoon\runners\logic.go
-|4,54,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
-'7  70  4  E:\Cocoon\runners\logic.go
-|4,55,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
+'0  41  2  E:\Workspace\YACAPI\src\mscapi\mscapi.c
+|4,48,41,2,1553174556,"E:\\Workspace\\YACAPI\\src\\mscapi\\mscapi.c"
+'1  1  0  E:\Workspace\YACAPI\src\yacapi\yacapi.c
+|4,49,1,0,1553174399,"E:\\Workspace\\YACAPI\\src\\yacapi\\yacapi.c"
+'2  1  0  E:\Workspace\YACAPI\src\CMakeLists.txt
+|4,50,1,0,1553174313,"E:\\Workspace\\YACAPI\\src\\CMakeLists.txt"
+'3  10  8  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,51,10,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+'4  11  8  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,52,11,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+'5  106  39  E:\Cocoon\runners\cmd\agent\main.go
+|4,53,106,39,1553083768,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+'6  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,54,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+'7  94  5  E:\Cocoon\runners\logic.go
+|4,55,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
 '8  70  4  E:\Cocoon\runners\logic.go
 |4,56,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
-'9  132  5  E:\Cocoon\runners\logic.go
-|4,57,132,5,1553003345,"E:\\Cocoon\\runners\\logic.go"
+'9  70  4  E:\Cocoon\runners\logic.go
+|4,57,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
 
 # Jumplist (newest first):
+-'  41  2  E:\Workspace\YACAPI\src\mscapi\mscapi.c
+|4,39,41,2,1553174556,"E:\\Workspace\\YACAPI\\src\\mscapi\\mscapi.c"
+-'  1  0  E:\Workspace\YACAPI\src\mscapi\mscapi.c
+|4,39,1,0,1553174542,"E:\\Workspace\\YACAPI\\src\\mscapi\\mscapi.c"
+-'  1  0  E:\Workspace\YACAPI\src\yacapi\yacapi.c
+|4,39,1,0,1553174399,"E:\\Workspace\\YACAPI\\src\\yacapi\\yacapi.c"
 -'  1  0  E:\Workspace\YACAPI\src\yacapi\yacapi.c
 |4,39,1,0,1553174399,"E:\\Workspace\\YACAPI\\src\\yacapi\\yacapi.c"
 -'  1  0  E:\Workspace\YACAPI\src\CMakeLists.txt
 |4,39,1,0,1553174313,"E:\\Workspace\\YACAPI\\src\\CMakeLists.txt"
 -'  1  0  E:\Workspace\YACAPI\src\CMakeLists.txt
 |4,39,1,0,1553174313,"E:\\Workspace\\YACAPI\\src\\CMakeLists.txt"
+-'  1  0  E:\Workspace\YACAPI\src\CMakeLists.txt
+|4,39,1,0,1553174313,"E:\\Workspace\\YACAPI\\src\\CMakeLists.txt"
+-'  1  0  E:\Workspace\YACAPI\src\CMakeLists.txt
+|4,39,1,0,1553174313,"E:\\Workspace\\YACAPI\\src\\CMakeLists.txt"
+-'  10  8  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,39,10,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+-'  11  8  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,39,11,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+-'  10  8  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,39,10,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+-'  11  8  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,39,11,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
 -'  10  8  E:\Workspace\YACAPI\src\NERD_tree_1
 |4,39,10,8,1553174140,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
 -'  11  8  E:\Workspace\YACAPI\src\NERD_tree_1
@@ -210,6 +228,22 @@ $
 |4,39,1,0,1553174060,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
 -'  1  0  E:\Workspace\YACAPI\src\NERD_tree_1
 |4,39,1,0,1553174060,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+-'  1  0  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,39,1,0,1553174060,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+-'  1  0  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,39,1,0,1553174060,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+-'  1  0  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,39,1,0,1553174060,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+-'  1  0  E:\Workspace\YACAPI\src\NERD_tree_1
+|4,39,1,0,1553174060,"E:\\Workspace\\YACAPI\\src\\NERD_tree_1"
+-'  106  39  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,106,39,1553083769,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  106  39  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,106,39,1553083769,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  106  39  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,106,39,1553083769,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  106  39  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,106,39,1553083769,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  106  39  E:\Cocoon\runners\cmd\agent\main.go
 |4,39,106,39,1553083769,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  106  39  E:\Cocoon\runners\cmd\agent\main.go
@@ -226,6 +260,22 @@ $
 |4,39,127,1,1553073942,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  127  1  E:\Cocoon\runners\cmd\agent\main.go
 |4,39,127,1,1553073942,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  127  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,127,1,1553073942,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  127  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,127,1,1553073942,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  127  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,127,1,1553073942,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  127  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,127,1,1553073942,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  125  33  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,125,33,1553073790,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  125  33  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,125,33,1553073790,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  125  33  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,125,33,1553073790,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  125  33  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,125,33,1553073790,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  125  33  E:\Cocoon\runners\cmd\agent\main.go
 |4,39,125,33,1553073790,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  125  33  E:\Cocoon\runners\cmd\agent\main.go
@@ -242,6 +292,22 @@ $
 |4,39,126,2,1553073780,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  126  2  E:\Cocoon\runners\cmd\agent\main.go
 |4,39,126,2,1553073780,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  126  2  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,126,2,1553073780,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  126  2  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,126,2,1553073780,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  126  2  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,126,2,1553073780,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  126  2  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,126,2,1553073780,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  124  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,124,1,1553073618,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  124  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,124,1,1553073618,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  124  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,124,1,1553073618,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  124  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,124,1,1553073618,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  124  1  E:\Cocoon\runners\cmd\agent\main.go
 |4,39,124,1,1553073618,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  124  1  E:\Cocoon\runners\cmd\agent\main.go
@@ -258,6 +324,22 @@ $
 |4,39,122,1,1553073392,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
 -'  122  1  E:\Cocoon\runners\cmd\agent\main.go
 |4,39,122,1,1553073392,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  122  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,122,1,1553073392,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  122  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,122,1,1553073392,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  122  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,122,1,1553073392,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  122  1  E:\Cocoon\runners\cmd\agent\main.go
+|4,39,122,1,1553073392,"E:\\Cocoon\\runners\\cmd\\agent\\main.go"
+-'  1  0  E:\Cocoon\runners\cmd\agent\branding.go
+|4,39,1,0,1553073188,"E:\\Cocoon\\runners\\cmd\\agent\\branding.go"
+-'  1  0  E:\Cocoon\runners\cmd\agent\branding.go
+|4,39,1,0,1553073188,"E:\\Cocoon\\runners\\cmd\\agent\\branding.go"
+-'  1  0  E:\Cocoon\runners\cmd\agent\branding.go
+|4,39,1,0,1553073188,"E:\\Cocoon\\runners\\cmd\\agent\\branding.go"
+-'  1  0  E:\Cocoon\runners\cmd\agent\branding.go
+|4,39,1,0,1553073188,"E:\\Cocoon\\runners\\cmd\\agent\\branding.go"
 -'  1  0  E:\Cocoon\runners\cmd\agent\branding.go
 |4,39,1,0,1553073188,"E:\\Cocoon\\runners\\cmd\\agent\\branding.go"
 -'  1  0  E:\Cocoon\runners\cmd\agent\branding.go
@@ -282,6 +364,22 @@ $
 |4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
 -'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
 |4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+-'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+-'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+-'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+-'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+-'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+-'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+-'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
+-'  4  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
+|4,39,4,0,1553072645,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
 -'  8  2  E:\Cocoon\runners\cmd\agent\NERD_tree_2
 |4,39,8,2,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
 -'  1  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
@@ -290,106 +388,18 @@ $
 |4,39,8,2,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
 -'  1  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
 |4,39,1,0,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  8  2  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,8,2,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  1  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,1,0,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  8  2  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,8,2,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  1  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,1,0,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  8  2  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,8,2,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  1  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,1,0,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  8  2  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,8,2,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  1  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,1,0,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  8  2  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,8,2,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  1  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,1,0,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  8  2  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,8,2,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  1  0  E:\Cocoon\runners\cmd\agent\NERD_tree_2
-|4,39,1,0,1553072057,"E:\\Cocoon\\runners\\cmd\\agent\\NERD_tree_2"
--'  94  5  E:\Cocoon\runners\logic.go
-|4,39,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
--'  94  5  E:\Cocoon\runners\logic.go
-|4,39,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
--'  94  5  E:\Cocoon\runners\logic.go
-|4,39,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
--'  94  5  E:\Cocoon\runners\logic.go
-|4,39,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
--'  94  5  E:\Cocoon\runners\logic.go
-|4,39,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
--'  94  5  E:\Cocoon\runners\logic.go
-|4,39,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
--'  94  5  E:\Cocoon\runners\logic.go
-|4,39,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
--'  94  5  E:\Cocoon\runners\logic.go
-|4,39,94,5,1553006630,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553006588,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553006588,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553006588,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553006588,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553006588,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553006588,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553006588,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553006588,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  70  4  E:\Cocoon\runners\logic.go
-|4,39,70,4,1553003572,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553003503,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553003503,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553003503,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553003503,"E:\\Cocoon\\runners\\logic.go"
--'  1  0  E:\Cocoon\runners\logic.go
-|4,39,1,0,1553003503,"E:\\Cocoon\\runners\\logic.go"
 
 # History of marks within files (newest to oldest):
+
+> E:\Workspace\YACAPI\src\mscapi\mscapi.c
+	*	1553174553	0
+	"	41	2
+
+> E:\Workspace\YACAPI\src\mscapi\NERD_tree_1
+	*	1553174537	0
+	"	6	4
+	.	1	0
+	+	1	0
 
 > E:\Workspace\YACAPI\src\yacapi\NERD_tree_1
 	*	1553174395	0
