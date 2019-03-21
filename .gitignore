@@ -3,3 +3,8 @@
 personal.el
 .emacs.d/ac-comphist.dat
 \#*\#
+/.cache
+/.wget-hsts
+/.ssh
+/vimfiles/.netrwhist
+/.gnupg
