@@ -23,3 +23,16 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
+let g:license_author = "Alex 'Ript' Malyshev"
+let g:license_email = 'alexript@gmail.com'
+
+" Commenting blocks of code. Now you can type ,cc to comment a line and ,cu to uncomment a line (works both in normal and visual mode).
+autocmd FileType c,cpp,java,scala let b:comment_leader = '// '
+autocmd FileType sh,ruby,python   let b:comment_leader = '# '
+autocmd FileType conf,fstab       let b:comment_leader = '# '
+autocmd FileType tex              let b:comment_leader = '% '
+autocmd FileType mail             let b:comment_leader = '> '
+autocmd FileType vim              let b:comment_leader = '" '
+autocmd FileType dosbatch          let b:comment_leader = 'rem '
+noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
+noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>

@@ -8,3 +8,6 @@ personal.el
 /.ssh
 /vimfiles/.netrwhist
 /.gnupg
+/.subversion
+/_viminfo
+/.viminfo
