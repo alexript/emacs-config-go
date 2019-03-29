@@ -45,3 +45,9 @@
 [submodule "vimfiles/bundle/minibufexpl.vim"]
 	path = vimfiles/bundle/minibufexpl.vim
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "vimfiles/bundle/utl.vim"]
+	path = vimfiles/bundle/utl.vim
+	url = https://github.com/vim-scripts/utl.vim.git
+[submodule "vimfiles/bundle/vim-fugitive"]
+	path = vimfiles/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
