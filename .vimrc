@@ -72,3 +72,8 @@ let g:AutoAdapt_FilePattern = '*.h,*.c,*.cpp,*.go,*.md'
 " https://github.com/itchyny/calendar.vim
 let g:calendar_google_calendar = 1
 let g:calendar_google_task = 1
+
+" https://github.com/twitvim/twitvim
+let twitvim_enable_python3 = 1
+let twitvim_timestamp_format = '%Y-%m-%d %H:%M'
+let twitvim_allow_multiline = 1

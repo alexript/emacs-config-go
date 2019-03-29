@@ -57,3 +57,6 @@
 [submodule "vimfiles/bundle/vim-lucius"]
 	path = vimfiles/bundle/vim-lucius
 	url = https://github.com/jonathanfilip/vim-lucius.git
+[submodule "vimfiles/bundle/twitvim"]
+	path = vimfiles/bundle/twitvim
+	url = https://github.com/twitvim/twitvim.git
