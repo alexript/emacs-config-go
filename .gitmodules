@@ -39,3 +39,6 @@
 [submodule "vimfiles/bundle/vim-autoadapt"]
 	path = vimfiles/bundle/vim-autoadapt
 	url = https://github.com/inkarkat/vim-AutoAdapt.git
+[submodule "vimfiles/bundle/vimwiki"]
+	path = vimfiles/bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
