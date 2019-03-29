@@ -33,3 +33,6 @@
 [submodule "vimfiles/bundle/vim-misc"]
 	path = vimfiles/bundle/vim-misc
 	url = https://github.com/xolox/vim-misc.git
+[submodule "vimfiles/bundle/vim-notes"]
+	path = vimfiles/bundle/vim-notes
+	url = https://github.com/xolox/vim-notes.git
