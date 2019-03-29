@@ -48,3 +48,7 @@ map <M-Right> <C-]>
 let g:mwDefaultHighlightingPalette = 'maximum'
 let g:mwAutoLoadMarks = 1
 nmap <Leader>N <Plug>MarkAllClear
+
+" https://github.com/xolox/vim-easytags
+:let g:easytags_always_enabled = 1
+:let g:easytags_auto_highlight = 1

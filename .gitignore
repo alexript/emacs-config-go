@@ -11,3 +11,5 @@ personal.el
 /.subversion
 /_viminfo
 /.viminfo
+/_vimtags
+/.vimtags

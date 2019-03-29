@@ -27,3 +27,9 @@
 [submodule "vimfiles/bundle/vim-ingo-library"]
 	path = vimfiles/bundle/vim-ingo-library
 	url = https://github.com/inkarkat/vim-ingo-library.git
+[submodule "vimfiles/bundle/vim-easytags"]
+	path = vimfiles/bundle/vim-easytags
+	url = https://github.com/xolox/vim-easytags.git
+[submodule "vimfiles/bundle/vim-misc"]
+	path = vimfiles/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
