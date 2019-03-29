@@ -54,3 +54,6 @@
 [submodule "vimfiles/bundle/calendar.vim"]
 	path = vimfiles/bundle/calendar.vim
 	url = https://github.com/itchyny/calendar.vim.git
+[submodule "vimfiles/bundle/vim-lucius"]
+	path = vimfiles/bundle/vim-lucius
+	url = https://github.com/jonathanfilip/vim-lucius.git

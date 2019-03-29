@@ -9,7 +9,12 @@ set ignorecase
 set hlsearch
 set incsearch
 set autoindent
-colorscheme desert
+
+" colorscheme desert
+" https://github.com/jonathanfilip/vim-lucius
+colorscheme lucius
+LuciusDark
+
 set guioptions-=T
 set fileformats=unix,dos
 set encoding=utf-8
