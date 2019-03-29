@@ -36,3 +36,6 @@
 [submodule "vimfiles/bundle/vim-notes"]
 	path = vimfiles/bundle/vim-notes
 	url = https://github.com/xolox/vim-notes.git
+[submodule "vimfiles/bundle/vim-autoadapt"]
+	path = vimfiles/bundle/vim-autoadapt
+	url = https://github.com/inkarkat/vim-AutoAdapt.git

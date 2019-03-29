@@ -52,3 +52,6 @@ nmap <Leader>N <Plug>MarkAllClear
 " https://github.com/xolox/vim-easytags
 :let g:easytags_always_enabled = 1
 :let g:easytags_auto_highlight = 1
+
+" https://github.com/inkarkat/vim-AutoAdapt
+let g:AutoAdapt_FilePattern = '*.h,*.c,*.cpp,*.go,*.md'
