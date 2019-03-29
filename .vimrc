@@ -63,3 +63,7 @@ let g:AutoAdapt_FilePattern = '*.h,*.c,*.cpp,*.go,*.md'
 " hi MBEVisibleChanged       guifg=#F1266F guibg=fg
 " hi MBEVisibleActiveNormal  guifg=#A6DB29 guibg=fg
 " hi MBEVisibleActiveChanged guifg=#F1266F guibg=fg
+
+" https://github.com/itchyny/calendar.vim
+let g:calendar_google_calendar = 1
+let g:calendar_google_task = 1
