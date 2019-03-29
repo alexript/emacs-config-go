@@ -21,3 +21,9 @@
 [submodule "vimfiles/bundle/supertab"]
 	path = vimfiles/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "vimfiles/bundle/vim-mark"]
+	path = vimfiles/bundle/vim-mark
+	url = https://github.com/inkarkat/vim-mark.git
+[submodule "vimfiles/bundle/vim-ingo-library"]
+	path = vimfiles/bundle/vim-ingo-library
+	url = https://github.com/inkarkat/vim-ingo-library.git
