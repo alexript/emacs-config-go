@@ -55,3 +55,11 @@ nmap <Leader>N <Plug>MarkAllClear
 
 " https://github.com/inkarkat/vim-AutoAdapt
 let g:AutoAdapt_FilePattern = '*.h,*.c,*.cpp,*.go,*.md'
+
+" MiniBufExpl Colors https://github.com/fholgado/minibufexpl.vim
+" hi MBENormal               guifg=#808080 guibg=fg
+" hi MBEChanged              guifg=#CD5907 guibg=fg
+" hi MBEVisibleNormal        guifg=#5DC2D6 guibg=fg
+" hi MBEVisibleChanged       guifg=#F1266F guibg=fg
+" hi MBEVisibleActiveNormal  guifg=#A6DB29 guibg=fg
+" hi MBEVisibleActiveChanged guifg=#F1266F guibg=fg
