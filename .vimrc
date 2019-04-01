@@ -1,4 +1,8 @@
-language English_United States
+if has('unix')
+	language messages C
+else
+	language English_United States
+endif
 set nocompatible
 execute pathogen#infect()
 syntax on
@@ -10,10 +14,12 @@ set hlsearch
 set incsearch
 set autoindent
 
+if has("gui_running")
 " colorscheme desert
 " https://github.com/jonathanfilip/vim-lucius
 colorscheme lucius
 LuciusDark
+endif
 
 set guioptions-=T
 set fileformats=unix,dos
