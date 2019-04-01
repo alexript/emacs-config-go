@@ -19,6 +19,8 @@ if has("gui_running")
 " https://github.com/jonathanfilip/vim-lucius
 colorscheme lucius
 LuciusDark
+else
+	colorscheme industry
 endif
 
 set guioptions-=T
