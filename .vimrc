@@ -85,3 +85,12 @@ let g:calendar_google_task = 1
 let twitvim_enable_python3 = 1
 let twitvim_timestamp_format = '%Y-%m-%d %H:%M'
 let twitvim_allow_multiline = 1
+
+" https://github.com/vim-scripts/DoxygenToolkit.vim
+let g:DoxygenToolkit_briefTag_pre="@Synopsis  "
+let g:DoxygenToolkit_paramTag_pre="@Param "
+let g:DoxygenToolkit_returnTag="@Returns   "
+let g:DoxygenToolkit_blockHeader="--------------------------------------------------------------------------"
+let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------"
+let g:DoxygenToolkit_authorName="Alex 'Ript' Malyshev"
+let g:DoxygenToolkit_licenseTag="The MIT License (MIT)" 

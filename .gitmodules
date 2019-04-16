@@ -60,3 +60,6 @@
 [submodule "vimfiles/bundle/twitvim"]
 	path = vimfiles/bundle/twitvim
 	url = https://github.com/twitvim/twitvim.git
+[submodule "vimfiles/bundle/doxygentoolkit"]
+	path = vimfiles/bundle/doxygentoolkit
+	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
