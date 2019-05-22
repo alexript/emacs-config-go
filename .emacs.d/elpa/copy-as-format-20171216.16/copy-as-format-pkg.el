@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "copy-as-format" "20171216.16" "Copy buffer locations as GitHub/Slack/JIRA/HipChat/... formatted code" '((cl-lib "0.5")) :commit "971957166fe64d914ec4be209b4f80efeeabbb19" :keywords '("github" "slack" "jira" "hipchat" "gitlab" "bitbucket" "org-mode" "pod" "rst" "asciidoc" "tools" "convenience") :authors '(("Skye Shaw" . "skye.shaw@gmail.com")) :maintainer '("Skye Shaw" . "skye.shaw@gmail.com") :url "https://github.com/sshaw/copy-as-format")
