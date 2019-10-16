@@ -63,3 +63,6 @@
 [submodule "vimfiles/bundle/doxygentoolkit"]
 	path = vimfiles/bundle/doxygentoolkit
 	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
+[submodule "vimfiles/bundle/v-vim"]
+	path = vimfiles/bundle/v-vim
+	url = git@github.com:ollykel/v-vim.git
