@@ -16,3 +16,4 @@ personal.el
 /vimwiki
 .*.swp
 .twitvim.token
+/.config
