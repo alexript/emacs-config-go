@@ -66,3 +66,6 @@
 [submodule "vimfiles/bundle/v-vim"]
 	path = vimfiles/bundle/v-vim
 	url = git@github.com:ollykel/v-vim.git
+[submodule "vimfiles/bundle/maven-ide"]
+	path = vimfiles/bundle/maven-ide
+	url = git@github.com:vim-scripts/maven-ide.git
