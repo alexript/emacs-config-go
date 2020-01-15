@@ -17,3 +17,5 @@ personal.el
 .*.swp
 .twitvim.token
 /.config
+/.bash_history
+/.sonic-pi
