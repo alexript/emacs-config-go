@@ -98,3 +98,6 @@ let g:DoxygenToolkit_blockHeader="----------------------------------------------
 let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------"
 let g:DoxygenToolkit_authorName="Alex 'Ript' Malyshev"
 let g:DoxygenToolkit_licenseTag="The MIT License (MIT)" 
+
+" OmniSharp
+let g:OmniSharp_server_stdio = 1
