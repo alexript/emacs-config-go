@@ -31,9 +31,19 @@ if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
   if has('unix')
-	  set lines=60 columns=100
+    set lines=54 columns=200
   else
-  set lines=999 columns=999
+    set lines=999 columns=999
+  endif
+endif
+
+if has("gui_running")
+  if has("gui_gtk2")
+      set guifont=InconsolataCyr\ 12
+  elseif has("gui_macvim")
+    set guifont=Menlo\ Regular:h14
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
   endif
 endif
 
@@ -60,6 +70,9 @@ noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<
 " Alt-right/left to navigate forward/backward in the tags stack
 map <M-Left> <C-T>
 map <M-Right> <C-]>
+
+" vim-go
+let g:go_version_warning = 0
 
 " https://github.com/inkarkat/vim-mark
 let g:mwDefaultHighlightingPalette = 'maximum'
