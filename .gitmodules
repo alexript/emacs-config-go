@@ -69,3 +69,6 @@
 [submodule "vimfiles/bundle/maven-ide"]
 	path = vimfiles/bundle/maven-ide
 	url = git@github.com:vim-scripts/maven-ide.git
+[submodule "vimfiles/bundle/omnisharp-vim"]
+	path = vimfiles/bundle/omnisharp-vim
+	url = https://github.com/OmniSharp/omnisharp-vim.git
