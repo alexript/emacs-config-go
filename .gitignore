@@ -19,3 +19,6 @@ personal.el
 /.config
 /.bash_history
 /.sonic-pi
+/.mx
+/.openshot_qt
+/.git-for-windows-updater

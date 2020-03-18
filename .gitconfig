@@ -1,2 +1,19 @@
 [winUpdater]
-	recentlySeenVersion = 2.24.1.windows.2
+	recentlySeenVersion = 2.25.0.windows.1
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Alex 'Ript' Malyshev
+	email = alexript@gmail.com
+[filesystem "Oracle Corporation|1.8.0_231|1242559029"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|1.8.0_231|-197560089"]
+	timestampResolution = 521 milliseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|11.0.6|-197560089"]
+	timestampResolution = 180998 microseconds
+	minRacyThreshold = 0 nanoseconds
