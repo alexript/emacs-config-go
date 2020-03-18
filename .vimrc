@@ -30,7 +30,11 @@ set guifont=InconsolataCyr:h16
 if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
+  if has('unix')
+	  set lines=60 columns=100
+  else
   set lines=999 columns=999
+  endif
 endif
 
 autocmd StdinReadPre * let s:std_in=1
