@@ -1,0 +1,4 @@
+set variables:
+VIM -- this folder
+VIMRUNTIME -- where vim.exe is (for example: C:\Program Files (x86)\Vim\vim81 )
+
