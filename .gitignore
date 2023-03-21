@@ -22,3 +22,6 @@ personal.el
 /.mx
 /.openshot_qt
 /.git-for-windows-updater
+/.lesshst
+/.tintin/history.txt
+/.vs-kubernetes
