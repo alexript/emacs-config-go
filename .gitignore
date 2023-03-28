@@ -25,3 +25,4 @@ personal.el
 /.lesshst
 /.tintin/history.txt
 /.vs-kubernetes
+/.vim
